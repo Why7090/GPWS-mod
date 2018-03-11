@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4026266589
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: gpws
+      Dependencies: {}

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3296918153
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 162628476a7b826a088f82c44c7e8845
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 527606b32568196eafb9996a87c8a8e0
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Sounds/bank angle.ogg
+- Assets/_ModAssets_/Parts/GPWS Core.xml
+- Assets/Sounds/terrainTerrain.ogg
+- Assets/Sounds/pullup.ogg
+- Assets/_ModAssets_/ModManifest.xml
+- Assets/_ModAssets_/GPWS-Assembly-CSharp.dll.bytes
+Dependencies: []

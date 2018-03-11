@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="ead5d081-0bd0-4d57-a0ca-8dc7bae0ce6a">
+  <Mod name="GPWS" author="Why7090" versionMajor="0" versionMinor="1" loadPriority="1000" lastUpdated="3/11/2018 4:02:53 PM" apiVersion="1.0.0.0" description="Ground Proximity Warning System (GPWS) is a system designed to alert pilots if their aircraft is in immediate danger of flying into the ground or an obstacle.">
+    <Steam title="GPWS" visibility="Public" previewPath="Assets/Textures/GPWS.png" language="English" tags="">
+      <description>Ground Proximity Warning System (GPWS) is a system designed to alert pilots if their aircraft is in immediate danger of flying into the ground or an obstacle.</description>
+    </Steam>
+    <GameObjects />
+    <Assets>
+      <Asset path="Assets/Sounds/bank angle.ogg" />
+      <Asset path="Assets/Sounds/pullup.ogg" />
+      <Asset path="Assets/Sounds/terrainTerrain.ogg" />
+    </Assets>
+    <Assemblies>
+      <Assembly name="GPWS-Assembly-CSharp.dll" path="Assets/_ModAssets_/GPWS-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts>
+          <Part name="GPWS Core" xmlPath="Assets/_ModAssets_/Parts/GPWS Core.xml" />
+        </Parts>
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>

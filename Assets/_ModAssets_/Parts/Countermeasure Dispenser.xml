@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="Countermeasure Dispenser">
+  <PartType id="Mod_GPWS_CountermeasureDispenser" name="Countermeasure Dispenser" prefabId="CountermeasureDispenser" mass="10" health="100" damageDisconnect="false" sharesRigidBody="true" combineMeshes="false" disconnectForce="10" underwaterDragScalar="30" defaultMaterials="0,1,3,-1">
+    <Modifiers>
+      <ModModifier id="GPWS_GPWSCore" type="GPWSCore, GPWS-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <DefaultState activationGroup="8" />
+      </ModModifier>
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint adaptiveIgnore="false" a="1111" allowRotation="true" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="0,-1,0" position="0,0,0" />
+    </AttachPoints>
+  </PartType>
+  <DesignerPart name="Countermeasure Dispenser (Clone)" category="Weapons" description="Dispenses chaff or flares when triggered, for helping evade missiles and break locks.">
+    <Assembly>
+      <Parts>
+        <Part id="1" partType="Mod_GPWS_CountermeasureDispenser" position="0,0,0" rotation="0,0,0" />
+      </Parts>
+    </Assembly>
+  </DesignerPart>
+</Part>

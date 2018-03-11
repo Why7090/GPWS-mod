@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="GPWS Core">
+  <PartType id="Mod_GPWS_GPWSCore" name="GPWS Core" prefabId="CountermeasureDispenser" mass="5" health="100" damageDisconnect="false" sharesRigidBody="false" combineMeshes="false" disconnectForce="30" underwaterDragScalar="10" defaultMaterials="0,1,3,-1">
+    <Modifiers>
+      <ModModifier id="GPWS_GPWSCore" type="GPWSCore, GPWS-Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <DefaultState activationGroup="8" obstacleRangeSeconds="10" isVerticleSpeedWarningEnabled="true" isAngleWarningEnabled="true" isStallWarningEnabled="true" />
+      </ModModifier>
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint adaptiveIgnore="false" a="1111" allowRotation="true" display="false" displayWhenDragged="false" fuselageConnection="false" ignoreGrid="false" ignoreSurface="false" jointType="Fixed" wingAttach="false" normal="0,-1,0" position="0,0,0" />
+    </AttachPoints>
+  </PartType>
+  <DesignerPart name="GPWS Core" category="Gizmos" description="Ground Proximity Warning System (GPWS) is a system designed to alert pilots if their aircraft is in immediate danger of flying into the ground or an obstacle.">
+    <Assembly>
+      <Parts>
+        <Part id="1" partType="Mod_GPWS_GPWSCore" position="0,0,0" rotation="0,0,0" />
+      </Parts>
+    </Assembly>
+  </DesignerPart>
+</Part>
